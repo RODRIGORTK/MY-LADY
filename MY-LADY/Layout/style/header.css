@@ -1,0 +1,43 @@
+header {
+  width: 100%;
+  padding: 10px 8%;
+  position: sticky;
+  top: 0;
+  background-color: #d3a1a3;
+  z-index: 10;
+}
+
+
+.camiseta {
+  width: 50px;
+}
+
+.logo {
+  width: 100;
+  font-size: 24px;
+}
+
+#navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#nav-list {
+  display: flex;
+  list-style: none;
+  gap: 48px;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: inherit;
+  color: #1d1d1dad;
+  font-weight: 600;
+}
+
+.nav-item.active a {
+  color: #1d1d1d;
+  border-bottom: 3px solid #fec9c3;
+}

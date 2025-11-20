@@ -1,0 +1,16 @@
+footer {
+  background-color: #d3a1a3;
+}
+
+.footer-itens {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 8px 24px 8%;
+  align-items: center;
+  
+}
+
+.copyright {
+  color: #1d1d1d;
+  font-weight: 800;
+}

@@ -1,0 +1,82 @@
+/*.content {
+    background-color: aqua;
+}*/
+
+.home {
+
+    display: flex;
+    min-height: calc(100vh - 96);
+    position: relative;
+}
+
+.cta {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    margin: 20px;
+}
+
+.cta .tittle {
+    font-size: 4rem;
+    color: #1d1d1d;
+    font-family: "Open Sans", serif;
+}
+
+.cta .tittle span {
+    color: #d3a1a3;
+}
+
+.cta .description {
+    font-size: 1.2rem;
+    font-weight: 450;
+}
+
+.cta-buttons {
+    display: flex;
+    gap: 24px;
+}
+
+.cta-buttons a {
+    text-decoration: none;
+    color: #1d1d1d;
+}
+
+.phone-button {
+    display: flex;
+    background-color: #d3a1a3;
+    gap: 8px;
+    align-items: center;
+    padding: 8px 14px;
+    font-weight: 500;
+    box-shadow: 0px 0px 6px 2px rgba(0, 0, 0.1);
+    border-radius: 12px;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: start;
+    justify-content: end;
+    width: 70%;
+
+}
+.banner img {
+    height: 500px;
+    width: fit-content;
+    margin-top: 20px;
+    margin-left:5px;
+    border-radius: 30%;
+
+}
+
+.shape {
+    background-color: #d3a1a1 0;
+    width: 50%;
+    height: 86.5%;
+    position: absolute;
+    border-radius: 40% 30% 0% 20%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
